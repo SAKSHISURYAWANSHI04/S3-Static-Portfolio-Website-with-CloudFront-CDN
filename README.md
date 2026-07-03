@@ -131,7 +131,7 @@ It includes:
 
 ## 🌐 Website Live with HTTPS (CloudFront)
 
-![ Website Live with HTTPS (CloudFront)]( Website Live with HTTPS (CloudFront).png)
+![CloudFront HTTPS]()
 
 Explanation:
 
