@@ -15,7 +15,7 @@ It ensures:
 ---
 
 ## 🏗️ Architecture
-![Architecture]()
+![Architecture](aws-s3-portfolio-website-Architecture.png)
 
 🌐 Users:
 
@@ -43,7 +43,7 @@ Users → CloudFront → S3 → Response to User
 ## 🥇 Step 1: Create S3 Bucket
 
 S3 Bucket Creation
-![Architecture]()
+![01_bucket_created](01_bucket_created.png)
 Details:
 
 S3 bucket is used to store static website files
@@ -59,7 +59,7 @@ It includes:
 ## 🥈 Step 2: Configure Bucket Policy
 
 Bucket Policy Configuration
-![Architecture]()
+![02_bucket_policy](02_bucket_policy.png)
 
 Details:
 
@@ -77,7 +77,7 @@ It includes:
 ## 🥉 Step 3: Enable Static Website Hosting
 
 Static Website Hosting
-![Architecture]()
+![03_static_website_enabled](03_static_website_enabled.png)
 
 Details:
 
@@ -94,7 +94,7 @@ It includes:
 
 ## 🌐 Website Live (S3 Endpoint)
 
-![Architecture]()
+![04_website_live_s3](04_website_live_s3.png)
 
 Explanation:
 
@@ -114,7 +114,7 @@ Users → S3 Website Endpoint → Browser Output
 
 ## 🥇 Step 4: Create CloudFront Distribution
 
-![Architecture]()
+![05_cloudfront_distribution](05_cloudfront_distribution.png)
 
 Details:
 
@@ -131,7 +131,7 @@ It includes:
 
 ## 🌐 Website Live with HTTPS (CloudFront)
 
-![Architecture]()
+![ Website Live with HTTPS (CloudFront)]( Website Live with HTTPS (CloudFront).png)
 
 Explanation:
 
@@ -151,7 +151,7 @@ Users → CloudFront → S3 → Browser
 
 ## 🟢 Versioning Enabled
 
-![Architecture]()
+![08_versioning_two_versions](08_versioning_two_versions.png)
 
 Details:
 
@@ -167,7 +167,7 @@ It includes:
 
 ## 🟡 Lifecycle Rule (Cost Optimization)
 
-![Architecture]()
+![07_lifecycle_rule](07_lifecycle_rule.png)
 
 Details:
 
@@ -184,7 +184,7 @@ It includes:
 
 ## 🔐 Pre-Signed URL Access
 
-![Architecture]()
+![09_presigned_url](09_presigned_url.png)
 
 Details:
 
@@ -196,6 +196,7 @@ It includes:
 * Secure sharing
 * No public exposure required
 
+![09_presigned_url](09_presigned_url-expired.png)
 ---
 
 # 🎯 Final Architecture Flow
